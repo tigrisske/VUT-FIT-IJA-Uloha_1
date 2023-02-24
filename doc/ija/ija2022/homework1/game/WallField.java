@@ -15,7 +15,6 @@ public class WallField extends Object implements Field{
     }
 
 
-
     @Override
     public Field nextField(Field.Direction dirs){return null;}
 
