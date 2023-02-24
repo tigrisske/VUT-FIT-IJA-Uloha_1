@@ -11,6 +11,7 @@ import ija.ija2022.homework1.game.MazeConfigure;
 import ija.ija2022.homework1.game.PacmanObject;
 import ija.ija2022.homework1.game.PathField;
 import ija.ija2022.homework1.game.WallField;
+import ija.ija2022.homework1.game.MazeInstance;
 import org.junit.Test;
 import org.junit.Assert;
 
