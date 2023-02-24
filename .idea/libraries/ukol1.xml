@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="ukol1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Úkol 1-20230222.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ija2022-ukol1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/junit-platform-console-standalone-1.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
