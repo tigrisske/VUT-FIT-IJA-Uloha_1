@@ -6,8 +6,7 @@ public class MazeInstance implements Maze {
     private int cols;
     private int rows;
     private Field[][] fields;
-   public MazeInstance(int rows, int cols, Field[][] fields){
-       this.fields = fields;
+   public MazeInstance(int rows, int cols){
        this.rows = rows;
        this.cols = cols;
    }
@@ -17,10 +16,14 @@ public class MazeInstance implements Maze {
        return rows+2;
    }
 
+   @Override
+   public void putFields(Field[][] fields){
+       this.fields = fields;
+   }
 
     @Override
     public Field getField(int row, int col) {
-        return fields[row][col];
+        return this.fields[row][col];
     }
 
     @Override

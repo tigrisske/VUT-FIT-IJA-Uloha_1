@@ -7,6 +7,8 @@ public class WallField extends Object implements Field{
     public int col;
     public int row;
 
+    private Maze maze;
+
     private boolean empty;
 
     public WallField(int row, int col){
@@ -20,8 +22,7 @@ public class WallField extends Object implements Field{
 
     @Override
     public void setMaze(Maze maze){
-
-
+        this.maze = maze;
     }
 
 
@@ -30,9 +31,7 @@ public class WallField extends Object implements Field{
 
     @Override
     public boolean put(MazeObject object) {
-
-        this.empty = true;
-        return false;
+        throw new UnsupportedOperationException();
     }
 
 

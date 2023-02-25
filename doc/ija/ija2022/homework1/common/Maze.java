@@ -10,6 +10,7 @@ public interface Maze {
 
     int numCols();
 
+    public void putFields(Field[][] fields);
 
 
 }
