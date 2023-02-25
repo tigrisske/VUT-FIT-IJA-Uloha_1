@@ -1,6 +1,7 @@
 package ija.ija2022.homework1.game;
 import ija.ija2022.homework1.common.*;
 
+
 public class MazeInstance implements Maze {
     private int cols;
     private int rows;

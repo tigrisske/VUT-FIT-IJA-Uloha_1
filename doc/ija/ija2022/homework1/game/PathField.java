@@ -36,6 +36,7 @@ public class PathField extends Object implements Field{
     }
 
 
+
     @Override
     public boolean remove(MazeObject object){
         this.panacik = null;

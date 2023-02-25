@@ -43,6 +43,7 @@ public class WallField extends Object implements Field{
         return false;
     }
 
+
     @Override
     public boolean isEmpty(){
         return true;

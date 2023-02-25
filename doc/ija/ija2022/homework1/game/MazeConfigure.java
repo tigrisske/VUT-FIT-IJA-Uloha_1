@@ -54,7 +54,6 @@ public class MazeConfigure extends Object {
         }
         return null;
     }
-
     public boolean processLine(String line) {
         //first check whether we can process line
         if (!(isReading)) {
