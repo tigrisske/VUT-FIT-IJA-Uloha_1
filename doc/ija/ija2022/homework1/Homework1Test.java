@@ -139,6 +139,8 @@ public class Homework1Test {
         Maze maze = createTestMaze();
         
         Field f = maze.getField(4, 2);
+
+        //System.out.println(maze.getField(5,2).getRow());
         MazeObject obj = f.get();
         
         Assert.assertTrue("Pacman se muze posunout doprava", obj.canMove(Field.Direction.R));
@@ -149,6 +151,7 @@ public class Homework1Test {
         Assert.assertFalse("Posun nahoru se nezdari", obj.move(Field.Direction.U));
         Assert.assertFalse("Puvodni misto pacmana je obsazeno", f.isEmpty());
         Assert.assertTrue("Vedlejsi misto je volne", f.nextField(Field.Direction.U).isEmpty());
+        //System.out.println(maze.getField(5,2).getRow());
         Assert.assertFalse("Posun dolu se nezdari", obj.move(Field.Direction.D));
         Assert.assertFalse("Puvodni misto pacmana je obsazeno", f.isEmpty());
         Assert.assertTrue("Vedlejsi misto je volne", f.nextField(Field.Direction.D).isEmpty());

@@ -61,7 +61,7 @@ public class WallField extends Object implements Field{
 
     @Override
     public int getRow(){
-        return this.col;
+        return this.row;
     }
     @Override
     public boolean equals(Object obj) {
